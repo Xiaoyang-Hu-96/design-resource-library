@@ -4,17 +4,19 @@ A Claude Code skill curated by [Xiaoyang Hu (Elena)](https://xiaoyanghu.com) —
 
 ## Install
 
-Copy the skill file to your Claude skills directory:
+```bash
+npx skills add Xiaoyang-Hu-96/design-resource-library
+```
 
+Works with Claude Code, Cursor, Cline, and 40+ other agents that support the [AgentSkills](https://github.com/agentskills/agentskills) standard.
+
+**Manual install (Claude Code only):**
 ```bash
 mkdir -p ~/.claude/skills/design-resource-library
 curl -o ~/.claude/skills/design-resource-library/SKILL.md \
-  https://raw.githubusercontent.com/elenahuxy/design-resource-library/main/skills/design-resource-library/SKILL.md
-```
-
-Or manually download `skills/design-resource-library/SKILL.md` and place it at:
-```
-~/.claude/skills/design-resource-library/SKILL.md
+  https://raw.githubusercontent.com/Xiaoyang-Hu-96/design-resource-library/main/skills/design-resource-library/SKILL.md
+curl -o ~/.claude/skills/design-resource-library/reference.md \
+  https://raw.githubusercontent.com/Xiaoyang-Hu-96/design-resource-library/main/skills/design-resource-library/reference.md
 ```
 
 ## Usage
