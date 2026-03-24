@@ -1,0 +1,13 @@
+{
+  "name": "design-resource-library",
+  "version": "1.0.0",
+  "description": "A curated personal design resource library — X accounts, portfolio inspiration, UI component libraries, and Framer tools. Opinionated recommendations based on real usage, not generic lists.",
+  "author": {
+    "name": "Xiaoyang Hu (Elena)",
+    "url": "https://xiaoyanghu.com",
+    "x": "@elenahuxy"
+  },
+  "categories": ["design", "portfolio", "frontend", "ui-components", "framer", "vibe-coding"],
+  "agents": ["claude-code", "cursor", "cline"],
+  "license": "MIT"
+}
